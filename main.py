@@ -12,7 +12,7 @@ def send_welcome(message):
 
 @bot.message_handler(commands=["id"])
 def send_message(message):
-  bot.send_message(message.chat.id, "Your Name Is<firstname></firstname>")
+  bot.send_message(message.chat.id, "Your Id Is {user_id} Your Name Id Is{id}")
 
 
 
